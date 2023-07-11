@@ -1,0 +1,135 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+
+  .clock{
+    padding: 2rem;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+
+  }
+  
+  .display-flex {
+    display: flex;
+  }
+
+  .alarm .delete-alarm {
+    border-radius: 2rem;
+    background-color: #ded0d0;
+    font-weight: bold;
+    color: black;
+    font-size: xx-medium;
+  }
+  
+  .btn {
+    outline: none;
+    border: none;
+    background-color: #d0cac0;
+    padding: 0.5rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .submit{
+    border-color: #ded0d0;
+    border: 10px;
+    border-radius: 2rem;
+    font-weight: bold;
+  }
+
+  .alarm-form {
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 33px;
+  }
+  
+  select {
+    appearance: none;
+    background-color: #d0cac0;
+    padding: 0.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 2rem;
+    margin-right: 0.3rem;
+    color: #0e141b;
+  }
+  
+  .mb {
+    margin-bottom: 1rem;
+  }
+
+  .page-title {
+    background: linear-gradient(90deg, #bde4c7 -78%, #555872 100%);;
+    align-items: center;
+    text-align: center;
+    color: #ded0d0;
+    padding: 16px;
+  }
+  
+  
+  .main-container {
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #bde4c7 -78%, #555872 100%);
+  }
+  
+  .current-time {
+    font-size: 2rem;
+    color: c0;
+    margin-bottom: 107px;
+  }
+  
+  .alarm-form {
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 33px;
+  }
+  
+  
+  .set-alarm{
+    width: 100%;
+  }
+  
+  .set-alarm .set-alarm-title {
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .alarm {
+    justify-content: space-between;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    align-items: center;
+  }
+ 
+  
+  .time {
+    color: #0e141b;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+ 
+
+  @media only screen and (min-width: 600px) {
+    .main-container {
+      padding-block: 2rem;
+    }
+    .clock{
+      justify-content: center;
+      border-radius: 50px;
+      width: 450px;
+      min-height: auto;
+    }
+  }
